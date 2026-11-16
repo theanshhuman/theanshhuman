@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Anshuman Raj</title>
+  <desc id="desc">Computer Science and Engineering student, software developer in progress.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#14243A"/>
+      <stop offset="100%" stop-color="#123B4A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#A5F3FC" opacity=".16"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="280" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="22" fill="url(#dots)"/>
+  <circle cx="1010" cy="65" r="120" fill="#38BDF8" opacity=".10" filter="url(#glow)"/>
+  <circle cx="1080" cy="225" r="145" fill="#2DD4BF" opacity=".09" filter="url(#glow)"/>
+  <path d="M760 0h440v280H900c90-75 130-158-140-280Z" fill="#FFFFFF" opacity=".025"/>
+  <path d="M0 236 C230 206 370 282 600 242 S990 204 1200 238" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".28"/>
+  <rect x="72" y="66" width="4" height="112" rx="2" fill="url(#accent)"/>
+  <text x="102" y="125" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="1.5">ANSHUMAN RAJ</text>
+  <text x="105" y="166" fill="#C7D2E0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" letter-spacing="2.1">COMPUTER SCIENCE &amp; ENGINEERING</text>
+  <text x="105" y="207" fill="#7DD3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="1.2">BUILDING • LEARNING • EXPLORING</text>
+  <g transform="translate(1000 132)" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".72">
+    <path d="M-48 -42 L-88 0 L-48 42"/>
+    <path d="M48 -42 L88 0 L48 42"/>
+    <path d="M18 -58 L-18 58"/>
+    <circle cx="0" cy="0" r="102" stroke-dasharray="3 10" opacity=".38"/>
+  </g>
+</svg>
