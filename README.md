@@ -1,7 +1,7 @@
 <!-- Profile README for @theanshhuman -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B132B,45:1C2541,100:3A86FF&height=210&section=header&text=ANSHUMAN%20RAJ&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20%26%20Engineering%20Student&descAlignY=60&animation=fadeIn" width="100%" alt="Animated blue header" />
+  <img src="./assets/profile-header.svg" width="100%" alt="Anshuman Raj — Computer Science and Engineering" />
 </p>
 
 <p align="center">
