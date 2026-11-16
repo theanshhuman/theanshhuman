@@ -1,6 +1,11 @@
 name: Generate contribution snake
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -11,18 +16,22 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: theanshhuman
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish snake to output branch
+      - name: Publish generated SVGs to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
           publish_branch: output
+          force_orphan: true
