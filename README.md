@@ -99,14 +99,6 @@ I'm **Anshuman Raj**, a B.Tech Computer Science & Engineering student interested
 
 ---
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/theanshhuman/theanshhuman/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation (requires the GitHub Actions workflow below)" />
-</p>
-
----
-
 ## 🎯 What I'm Focusing On
 
 - Strengthening core programming and problem-solving skills.
