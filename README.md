@@ -1,10 +1,3 @@
-
-<!-- ================= PROFILE HEADER ================= -->
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:238636&height=180&section=header&text=ANSHUMAN&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Building%20the%20future%20one%20commit%20at%20a%20time&descAlignY=60&descSize=15" width="100%" />
-
 # Hey, I'm Anshuman 👋
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Computer+Science+Engineering+Student;Aspiring+Software+Engineer;Learning+DSA+%26+Problem+Solving;Exploring+Software+Development;Turning+Ideas+Into+Code" alt="Typing animation" />
